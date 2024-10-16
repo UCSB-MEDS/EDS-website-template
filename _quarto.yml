@@ -8,7 +8,7 @@ website:
     dismissable: false
     type: primary
     position: above-navbar
-    content: "This website is currently under development!"
+    content: "This website is currently under development! (edit or remove this banner in `_quarto.yml`)"
   title: "EDS 123"
   favicon: images/bren-hex.png
   navbar:

@@ -4,22 +4,35 @@ subtitle: "Week 1"
 description: "Monday January 6^th^, 2025"
 ---
 
+::: {.callout-tip}
+## The following layout is only a suggestion
+Add / arrange content in whatever way is best your course -- be sure to check out examples of other [MEDS course websites](https://github.com/UCSB-MEDS/EDS-website-template?tab=readme-ov-file#an-optional-eds-course-website-template) for inspiration!
+:::
+
 ## {{< fa person-chalkboard title="a person pointing at a chalkboard" >}} Lecture Materials {#lecture-materials}
+
+Consider linking to lecture materials in a table. Check out this [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) for quickly formatting tables.
 
 | Lecture slides | Lab |  Answer key |
 |----------------|------|------------|
-| [Lecture 1: topic X](lecture-slides/lecture1.1-slides.qmd){target="_blank"}  | [Lab 1](labs/lab1.1.qmd) | [Lab 1 Key](keys/key1.1.qmd) |
+| [Lecture 1.1: topic X](lecture-slides/lecture1.1-slides.qmd){target="_blank"} | [Lab 1.1](labs/lab1.1.qmd) | [Lab 1.1 Key](keys/key1.1.qmd) |
+| [Lecture 1.2: topic X](https://docs.google.com/presentation/d/1RNYxX9qQhGsSob9sei0RoeRNIuxFwP6CuekkG1iCDkY/edit?usp=sharing){target="_blank"} | *NA* | *NA* |
+: {.hover .bordered tbl-colwidths="[50,25,25]"} 
 
 ## {{< fa comments title="two speech bubbles" >}} Discussion Materials {#discussion-materials}
 
-Discussion materials here
+You can also create buttons that link to content.
+
+::: {.center-text}
+[**This week's discussion topic here**]{.teal-text .body-text-m}
+
+[{{< fa person-chalkboard title="A person motioning at a chalkboard" >}} Discussion 1 slides](discussion-materials/week1-discussion-slides.qmd){.btn role="button" target="_blank"} 
+:::
 
 ## {{< fa pencil title="pencil" >}} Assignment Reminders {#assignment-reminders}
 
-| Assignment Type | Assignment Title                | Date Assigned  | Date Due                   |
-|-----------------|---------------------------------|----------------|----------------------------|
-| EOC             | End-of-class survey (week 1)    | Mon 01/06/2024 | Mon 01/06/2024, 11:55pm PT |
-| SR              | Pre-course reflection (SR #1)   | Mon 01/06/2024 | Sat 01/11/2024, 11:59pm PT |
-| HW              | Homework Assignment #1          | Mon 01/06/2024 | Sat 01/18/2024, 11:59pm PT |
+| Assignment Type | Assignment Title                              | Date Assigned  | Date Due                   |
+|-----------------|-----------------------------------------------|----------------|----------------------------|
+| HW              | [Homework Assignment #1](assignments/HW1.qmd) | DD/MM/YYYY     | DD/MM/YYYY, 11:59pm PT     |
 : {.hover .bordered tbl-colwidths="[20,30,20,30]"} 
 

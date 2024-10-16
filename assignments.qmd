@@ -9,9 +9,9 @@ toc: true
 All assignments are due at 11:59 PM on the dates listed in the table, below. 
 :::
  
-| Assignment Title         | Date Assigned  | Date Due  |
-|--------------------------|----------------|-----------|
-| Homework Assignment #1   | DD/MM/YYY      | DD/MM/YYY |
-| Homework Assignment #2   | DD/MM/YYY      | DD/MM/YYY |
-| Homework Assignment #3   | DD/MM/YYY      | DD/MM/YYY |
-| Homework Assignment #4   | DD/MM/YYY      | DD/MM/YYY |
+| Assignment Title                                               | Date Assigned  | Date Due  |
+|----------------------------------------------------------------|----------------|-----------|
+| [Homework Assignment #1](course-materials/assignments/HW1.qmd) | DD/MM/YYY      | DD/MM/YYY |
+| Homework Assignment #2                                         | DD/MM/YYY      | DD/MM/YYY |
+| Homework Assignment #3                                         | DD/MM/YYY      | DD/MM/YYY |
+| Homework Assignment #4                                         | DD/MM/YYY      | DD/MM/YYY |      

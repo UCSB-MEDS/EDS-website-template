@@ -7,25 +7,74 @@
     "text": "Consider adding helpful resources (e.g. online text books, blogs, people in the field to follow, videos, etc.) here. See EDS 240’s resources page as an example."
   },
   {
-    "objectID": "index.html#course-description",
-    "href": "index.html#course-description",
-    "title": "Course Title",
-    "section": "Course Description",
-    "text": "Course Description\nAdd your course description here"
+    "objectID": "course-materials/keys/key1.1.html",
+    "href": "course-materials/keys/key1.1.html",
+    "title": "Lab 1.1 KEY",
+    "section": "",
+    "text": "# load packages ----\nlibrary(tidyverse)\nlibrary(palmerpenguins)"
   },
   {
-    "objectID": "index.html#teaching-team",
-    "href": "index.html#teaching-team",
-    "title": "Course Title",
-    "section": "Teaching Team",
-    "text": "Teaching Team\n\n\n\n\nInstructor\n\n\n\n\n\n\n\n\n\n\n\nInstructor’s Name\nEmail: email@ucsb.edu\nLearn more: link to preferred online profile here\n\n\n\n\nTA\n\n\n\n\n\n\n\n\n\n\n\nTA’s Name\nEmail: email@bren.ucsb.edu\nLearn more: link to preferred online profile here"
+    "objectID": "course-materials/keys/key1.1.html#setup",
+    "href": "course-materials/keys/key1.1.html#setup",
+    "title": "Lab 1.1 KEY",
+    "section": "",
+    "text": "# load packages ----\nlibrary(tidyverse)\nlibrary(palmerpenguins)"
   },
   {
-    "objectID": "index.html#acknowledgements",
-    "href": "index.html#acknowledgements",
-    "title": "Course Title",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nAdd any acknowledgements here"
+    "objectID": "course-materials/keys/key1.1.html#tidy-data-review",
+    "href": "course-materials/keys/key1.1.html#tidy-data-review",
+    "title": "Lab 1.1 KEY",
+    "section": "Tidy Data Review",
+    "text": "Tidy Data Review\nExample untidy / wide data:\n\n# create some untidy temperature data ----\ntemp_data_wide &lt;- tribble(\n  ~date, ~station1, ~station2,  ~station3,\n  \"2023-10-01\", 30.1, 29.8,  31.2,\n  \"2023-11-01\", 28.6, 29.1,  33.4,\n  \"2023-12-01\", 29.9, 28.5,  32.3\n)\n\n# print it out ----\nprint(temp_data_wide)\n\n# A tibble: 3 × 4\n  date       station1 station2 station3\n  &lt;chr&gt;         &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n1 2023-10-01     30.1     29.8     31.2\n2 2023-11-01     28.6     29.1     33.4\n3 2023-12-01     29.9     28.5     32.3\n\n\nUsing pivot_longer() to “lengthen” / tidy our data:\n\n# convert data from wide &gt; long ----\ntemp_data_long &lt;- temp_data_wide |&gt; \n  pivot_longer(cols = starts_with(\"station\"),\n               names_to = \"station_id\",\n               values_to = \"temp_c\")\n\n# print it out ----\nprint(temp_data_long)\n\n# A tibble: 9 × 3\n  date       station_id temp_c\n  &lt;chr&gt;      &lt;chr&gt;       &lt;dbl&gt;\n1 2023-10-01 station1     30.1\n2 2023-10-01 station2     29.8\n3 2023-10-01 station3     31.2\n4 2023-11-01 station1     28.6\n5 2023-11-01 station2     29.1\n6 2023-11-01 station3     33.4\n7 2023-12-01 station1     29.9\n8 2023-12-01 station2     28.5\n9 2023-12-01 station3     32.3"
+  },
+  {
+    "objectID": "course-materials/week1.html",
+    "href": "course-materials/week1.html",
+    "title": "This week’s topic(s)",
+    "section": "",
+    "text": "The following layout is only a suggestion\n\n\n\nAdd / arrange content in whatever way is best your course – be sure to check out examples of other MEDS course websites for inspiration!"
+  },
+  {
+    "objectID": "course-materials/week1.html#lecture-materials",
+    "href": "course-materials/week1.html#lecture-materials",
+    "title": "This week’s topic(s)",
+    "section": " Lecture Materials",
+    "text": "Lecture Materials\nConsider linking to lecture materials in a table. Check out this Markdown Tables Generator for quickly formatting tables.\n\n\n\n\n\n\n\n\nLecture slides\nLab\nAnswer key\n\n\n\n\nLecture 1.1: topic X\nLab 1.1\nLab 1.1 Key\n\n\nLecture 1.2: topic X\nNA\nNA"
+  },
+  {
+    "objectID": "course-materials/week1.html#discussion-materials",
+    "href": "course-materials/week1.html#discussion-materials",
+    "title": "This week’s topic(s)",
+    "section": " Discussion Materials",
+    "text": "Discussion Materials\nYou can also create buttons that link to content.\n\nThis week’s discussion topic here\n Discussion 1 slides"
+  },
+  {
+    "objectID": "course-materials/week1.html#assignment-reminders",
+    "href": "course-materials/week1.html#assignment-reminders",
+    "title": "This week’s topic(s)",
+    "section": " Assignment Reminders",
+    "text": "Assignment Reminders\n\n\n\n\n\n\n\n\n\nAssignment Type\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nHW\nHomework Assignment #1\nDD/MM/YYYY\nDD/MM/YYYY, 11:59pm PT"
+  },
+  {
+    "objectID": "course-materials/labs/lab1.1.html",
+    "href": "course-materials/labs/lab1.1.html",
+    "title": "Lab 1.1 TEMPLATE",
+    "section": "",
+    "text": "# load packages ----"
+  },
+  {
+    "objectID": "course-materials/labs/lab1.1.html#setup",
+    "href": "course-materials/labs/lab1.1.html#setup",
+    "title": "Lab 1.1 TEMPLATE",
+    "section": "",
+    "text": "# load packages ----"
+  },
+  {
+    "objectID": "course-materials/labs/lab1.1.html#tidy-data-review",
+    "href": "course-materials/labs/lab1.1.html#tidy-data-review",
+    "title": "Lab 1.1 TEMPLATE",
+    "section": "Tidy Data Review",
+    "text": "Tidy Data Review\nExample untidy / wide data:\n\n# create some untidy temperature data ----\n\n# print it out ----\n\nUsing pivot_longer() to “lengthen” / tidy our data:\n\n# convert data from wide &gt; long ----\n\n# print it out ----"
   },
   {
     "objectID": "assignments.html",
@@ -35,31 +84,87 @@
     "text": "Important: 11:59 PM submission deadline\n\n\n\nAll assignments are due at 11:59 PM on the dates listed in the table, below.\n\n\n\n\n\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nHomework Assignment #1\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #2\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #3\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #4\nDD/MM/YYY\nDD/MM/YYY"
   },
   {
-    "objectID": "course-materials/week1.html",
-    "href": "course-materials/week1.html",
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Course Title",
+    "section": "Course Description",
+    "text": "Course Description\nAdd your course description here (can be copied over from your syllabus or the affiliated Bren course page)"
+  },
+  {
+    "objectID": "index.html#teaching-team",
+    "href": "index.html#teaching-team",
+    "title": "Course Title",
+    "section": "Teaching Team",
+    "text": "Teaching Team\n\n\n\n\n\n\nInstructor\n\n\n\n\n\n\n\n\n\n\n\nInstructor’s Name\nEmail: email@ucsb.edu\nLearn more: link to preferred online profile here\n\n\n\n\n\nTA\n\n\n\n\n\n\n\n\n\n\n\nTA’s Name\nEmail: email@bren.ucsb.edu\nLearn more: link to preferred online profile here"
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Course Title",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nAdd any acknowledgements here (e.g. any resources or people you drew lots of inspiration or help from when building your materials?)"
+  },
+  {
+    "objectID": "course-materials/discussion-materials/week1-discussion-slides.html#title-slide",
+    "href": "course-materials/discussion-materials/week1-discussion-slides.html#title-slide",
+    "title": "EDS 123",
+    "section": "",
+    "text": "EDS 240: Discussion 1\nToday’s topic here\n\nWeek 1 | January 7th, 2024"
+  },
+  {
+    "objectID": "course-materials/discussion-materials/week1-discussion-slides.html#slide-slug-here",
+    "href": "course-materials/discussion-materials/week1-discussion-slides.html#slide-slug-here",
+    "title": "EDS 123",
+    "section": "",
+    "text": "Slide title"
+  },
+  {
+    "objectID": "course-materials/week2.html",
+    "href": "course-materials/week2.html",
     "title": "This week’s topic(s)",
     "section": "",
-    "text": "Lecture slides\nLab\nAnswer key\n\n\n\n\nLecture 1: topic X\nLab 1\nLab 1 Key"
+    "text": "Week 2 materials coming soon!"
   },
   {
-    "objectID": "course-materials/week1.html#lecture-materials",
-    "href": "course-materials/week1.html#lecture-materials",
-    "title": "This week’s topic(s)",
+    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#title-slide",
+    "href": "course-materials/lecture-slides/lecture1.1-slides.html#title-slide",
+    "title": "EDS 123",
     "section": "",
-    "text": "Lecture slides\nLab\nAnswer key\n\n\n\n\nLecture 1: topic X\nLab 1\nLab 1 Key"
+    "text": "EDS 123: Lecture 1\nToday’s topic here\n\nWeek 1 | January 6th, 2025"
   },
   {
-    "objectID": "course-materials/week1.html#discussion-materials",
-    "href": "course-materials/week1.html#discussion-materials",
-    "title": "This week’s topic(s)",
-    "section": " Discussion Materials",
-    "text": "Discussion Materials\nDiscussion materials here"
+    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#welcome",
+    "href": "course-materials/lecture-slides/lecture1.1-slides.html#welcome",
+    "title": "EDS 123",
+    "section": "",
+    "text": "Welcome to EDS 123!\n\n\nThis is the default text size\n\n\n\n\nI can apply a class selector from meds-slides-styles.scss to change the size of this text\n\n\n\nSimilarly, I can apply a class selector(s) to modify the appearance of a subset of text\n\nCheck out this demo presentation for examples of all the cool capabilities of Revealjs"
   },
   {
-    "objectID": "course-materials/week1.html#assignment-reminders",
-    "href": "course-materials/week1.html#assignment-reminders",
-    "title": "This week’s topic(s)",
-    "section": " Assignment Reminders",
-    "text": "Assignment Reminders\n\n\n\n\n\n\n\n\n\nAssignment Type\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nEOC\nEnd-of-class survey (week 1)\nMon 01/06/2024\nMon 01/06/2024, 11:55pm PT\n\n\nSR\nPre-course reflection (SR #1)\nMon 01/06/2024\nSat 01/11/2024, 11:59pm PT\n\n\nHW\nHomework Assignment #1\nMon 01/06/2024\nSat 01/18/2024, 11:59pm PT"
+    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#block-level-styling",
+    "href": "course-materials/lecture-slides/lecture1.1-slides.html#block-level-styling",
+    "title": "EDS 123",
+    "section": "",
+    "text": "You can also apply styles to blocks of content\n\nWe can use divs to apply styling to all content within the div gates (:::):\n::: {.selector1 .selector2}\nSome content\n:::\n\nFor example:\n\nThis text is bolded\nThis text is italicized"
+  },
+  {
+    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#embedded-code",
+    "href": "course-materials/lecture-slides/lecture1.1-slides.html#embedded-code",
+    "title": "EDS 123",
+    "section": "",
+    "text": "Here is some embedded & rendered code\n\n\nlibrary(palmerpenguins)\nlibrary(ggplot2)\n\nggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = species)) +\n  geom_point()"
+  },
+  {
+    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#rendered-code",
+    "href": "course-materials/lecture-slides/lecture1.1-slides.html#rendered-code",
+    "title": "EDS 123",
+    "section": "",
+    "text": "Alternatively, we can render just the output"
+  },
+  {
+    "objectID": "course-materials/lecture-slides/lecture1.1-slides.html#columns",
+    "href": "course-materials/lecture-slides/lecture1.1-slides.html#columns",
+    "title": "EDS 123",
+    "section": "",
+    "text": "You can arrange content in columns\n\n\n\nLearn more about the MEDS program on the Bren website."
   }
 ]

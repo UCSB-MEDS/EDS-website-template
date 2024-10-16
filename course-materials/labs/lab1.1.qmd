@@ -1,0 +1,38 @@
+---
+title: "Lab 1.1 TEMPLATE"
+subtitle: "Today's lab topic here"
+author: "Your Name"
+date: 2025-01-06
+toc: true
+---
+
+## Setup
+
+```{r}
+#| eval: true
+#| echo: true
+#| message: false
+#| warning: false
+# load packages ----
+```
+
+## Tidy Data Review
+
+Example untidy / wide data: 
+
+```{r}
+# create some untidy temperature data ----
+
+# print it out ----
+
+```
+
+Using `pivot_longer()` to "lengthen" / tidy our data:
+
+```{r}
+# convert data from wide > long ----
+
+# print it out ----
+
+```
+

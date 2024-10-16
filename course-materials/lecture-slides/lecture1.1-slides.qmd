@@ -1,0 +1,141 @@
+---
+format: 
+  revealjs:
+    slide-number: true
+    highlight-style: a11y
+    chalkboard: true
+    theme: 
+      - ../../meds-slides-styles.scss
+---
+
+## {#title-slide data-menu-title="Title Slide" background="#053660"} 
+
+<!-- Apply class selectors from meds-slides-styles.scss using the `[some content]{.selector}` syntax -->
+[EDS 123: Lecture 1]{.custom-title}
+
+[*Today's topic here*]{.custom-subtitle}
+
+<hr class="hr-teal">
+
+[Week 1 | January 6^th^, 2025]{.custom-subtitle3}
+
+---
+
+## {#welcome data-menu-title="Welcome to EDS 123!"} 
+
+[Welcome to EDS 123!]{.slide-title}
+
+<!-- Creates a dark blue horizontal line -->
+<hr>
+
+This is the default text size
+
+<!-- Adding a "break" creates a bit more space between lines of text -->
+<br> 
+
+<!-- Three dots with a space between each means that the next content won't appear until you advance the slide -->
+. . . 
+
+[I can apply a class selector from `meds-slides-styles.scss` to change the size of this text]{.body-text-m}
+
+<br> 
+
+. . . 
+
+Similarly, I can apply a class selector(s) to [modify the appearance of a subset]{.sanchez-font .teal-text} of text
+
+::: {.footer}
+Check out this [demo presentation](https://quarto.org/docs/presentations/revealjs/#overview) for examples of all the cool capabilities of Revealjs
+:::
+
+---
+
+## {#block-level-styling data-menu-title="Block-level styling"} 
+
+[You can also apply styles to blocks of content]{.slide-title2}
+
+<hr>
+
+[We can use divs to apply styling to all content within the div gates (`:::`):]{.body-text-m}
+
+```
+::: {.selector1 .selector2}
+Some content
+:::
+```
+
+<br>
+
+[For example:]{.body-text-m}
+
+::: {.center-text .body-text-m .dark-blue-text}
+**This text is bolded**
+
+*This text is italicized*
+:::
+
+---
+
+## {#embedded-code data-menu-title="Embedded code"} 
+
+[Here is some embedded & rendered code]{.slide-title}
+
+<hr>
+
+```{r}
+#| eval: true
+#| echo: true
+#| out-width: "100%"
+#| fig-align: "center"
+library(palmerpenguins)
+library(ggplot2)
+
+ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = species)) +
+  geom_point()
+```
+
+---
+
+## {#rendered-code data-menu-title="Rendered code"} 
+
+[Alternatively, we can render just the output]{.slide-title}
+
+<hr>
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "100%"
+#| fig-align: "center"
+library(palmerpenguins)
+library(ggplot2)
+
+ggplot(data = penguins, aes(x = body_mass_g, fill = species)) +
+  geom_histogram(position = "identity", alpha = 0.5)
+```
+
+---
+
+## {#columns data-menu-title="Columns"} 
+
+[You can arrange content in columns]{.slide-title}
+
+<hr>
+
+:::: {.columns}
+
+<!-- Left-hand column -->
+::: {.column width="50%"}
+Learn more about the MEDS program on the [Bren website](https://bren.ucsb.edu/masters-programs/master-environmental-data-science).
+:::
+
+<!-- Right-hand column -->
+::: {.column width="50%"}
+![](images/week1/bren-hex.png){width="80%" fig-alt="The Bren School logo"}
+
+:::
+
+::::
+
+
+

@@ -16,21 +16,31 @@ toc: false
 
 <br>
 
+::: {.callout-tip}
+### Some tips for getting started:
+
+- make updates to this landing page by editing the `index.qmd` file in your repo's root directory
+- the landing page of your website *must* be named `index` -- do not change this name; it also should live in the root directory of your project
+- crop headshots in the shape of a circle before adding them to your repo (if you want them to appear as circles)
+:::
+
 ## Course Description
 
-Add your course description here
+Add your course description here (can be copied over from your syllabus or the affiliated Bren course page)
 
 ## Teaching Team
 
 <br>
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-6}
+<!-- Create responsive grid with two columns, which stack vertically when browser window is made smaller (or when viewed on a mobile device) -->
 
+::: {.grid}
+
+<!-- Left-hand column -->
+::: {.g-col-12 .g-col-md-6}
 ::: {.center-text .body-text-l}
 **Instructor**
 :::
-
 ```{r}
 #| eval: true 
 #| echo: false
@@ -38,21 +48,18 @@ Add your course description here
 #| out-width: "45%" 
 knitr::include_graphics("images/tbd.png")
 ```
-
 ::: {.center-text}
 [**Instructor's Name**]{.teal-text}  
 **Email:** [email@ucsb.edu](mailto::email@bren.ucsb.edu)  
 **Learn more:** link to preferred online profile here  
 :::
-
 :::
 
+<!-- Right-hand column -->
 ::: {.g-col-12 .g-col-md-6}
-
 ::: {.center-text .body-text-l}
 **TA**
 :::
-
 ```{r}
 #| eval: true 
 #| echo: false
@@ -60,16 +67,15 @@ knitr::include_graphics("images/tbd.png")
 #| out-width: "45%" 
 knitr::include_graphics("images/tbd.png")
 ```
-
 ::: {.center-text}
 [**TA's Name**]{.teal-text}  
 **Email:** [email@bren.ucsb.edu](mailto::email@bren.ucsb.edu)   
 **Learn more:** link to preferred online profile here
 :::
-
 :::
+
 :::
 
 ## Acknowledgements
 
-Add any acknowledgements here
+Add any acknowledgements here (e.g. any resources or people you drew lots of inspiration or help from when building your materials?)

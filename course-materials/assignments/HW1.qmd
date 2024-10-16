@@ -1,0 +1,4 @@
+---
+title: "Assignment #1"
+subtitle: "Assigned Mon DD/MM/YYYY | Due Sat DD/MM/YYYY"
+---

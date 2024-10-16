@@ -1,0 +1,29 @@
+---
+format: 
+  revealjs:
+    slide-number: true
+    highlight-style: a11y
+    chalkboard: true
+    theme: 
+      - ../../meds-slides-styles.scss
+editor_options: 
+  chunk_output_type: console
+---
+
+## {#title-slide data-menu-title="Title Slide" background="#047C91"} 
+
+[EDS 240: Discussion 1]{.custom-title}
+
+[*Today's topic here*]{.custom-subtitle}
+
+<hr class="hr-dark-blue">
+
+[Week 1 | January 7^th^, 2024]{.custom-subtitle3}
+
+---
+
+## {#slide-slug-here data-menu-title="Slide title for data menu here"}
+
+[Slide title]{.slide-title}
+
+<hr>

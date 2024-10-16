@@ -1,0 +1,49 @@
+---
+title: "Lab 1.1 KEY"
+subtitle: "Today's lab topic here"
+author: "Your Name"
+date: 2025-01-06
+toc: true
+---
+
+## Setup
+
+```{r}
+#| eval: true
+#| echo: true
+#| message: false
+#| warning: false
+# load packages ----
+library(tidyverse)
+library(palmerpenguins)
+```
+
+## Tidy Data Review
+
+Example untidy / wide data: 
+
+```{r}
+# create some untidy temperature data ----
+temp_data_wide <- tribble(
+  ~date, ~station1, ~station2,  ~station3,
+  "2023-10-01", 30.1, 29.8,  31.2,
+  "2023-11-01", 28.6, 29.1,  33.4,
+  "2023-12-01", 29.9, 28.5,  32.3
+)
+
+# print it out ----
+print(temp_data_wide)
+```
+
+Using `pivot_longer()` to "lengthen" / tidy our data:
+
+```{r}
+# convert data from wide > long ----
+temp_data_long <- temp_data_wide |> 
+  pivot_longer(cols = starts_with("station"),
+               names_to = "station_id",
+               values_to = "temp_c")
+
+# print it out ----
+print(temp_data_long)
+```
