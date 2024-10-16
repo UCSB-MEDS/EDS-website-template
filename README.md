@@ -34,6 +34,6 @@ If you're new to Quarto, or if this is you're first time building a Quarto websi
 
 The [Quarto documentation](https://quarto.org/) is also an incredibly thorough and helpful resource!
 
-## Wiki's coming soon!
+## Wikis coming soon!
 
 More instructional articles soon!
