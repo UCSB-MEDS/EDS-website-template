@@ -19,7 +19,7 @@ Many MEDS instructors opt to organize their course materials on custom course we
 
 ## Getting started with Quarto
 
-Check out the following tutorials for some helpful context and step-by-step instructions on building, deploying, and customizing a Quarto website:
+If you're new to Quarto, or if this is you're first time building a Quarto website, I recommend that you first check out the following tutorials. These materials should provide some helpful context, as well as step-by-step instructions on building, deploying, and customizing a Quarto website:
 
 - [Creating your personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/)
 - [Customizing Quarto Websites Using Sass & CSS](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide)
