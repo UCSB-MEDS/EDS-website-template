@@ -1,0 +1,17 @@
+ ---
+title: "Assignments"
+subtitle: "assignment links will become available in the tables below on the dates that they are assigned"
+toc: true
+---
+
+::: {.callout-important}
+## Important: 11:59 PM submission deadline
+All assignments are due at 11:59 PM on the dates listed in the table, below. 
+:::
+ 
+| Assignment Title         | Date Assigned  | Date Due  |
+|--------------------------|----------------|-----------|
+| Homework Assignment #1   | DD/MM/YYY      | DD/MM/YYY |
+| Homework Assignment #2   | DD/MM/YYY      | DD/MM/YYY |
+| Homework Assignment #3   | DD/MM/YYY      | DD/MM/YYY |
+| Homework Assignment #4   | DD/MM/YYY      | DD/MM/YYY |

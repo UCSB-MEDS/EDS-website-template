@@ -1,0 +1,6 @@
+---
+title: "Recommended reading & materials"
+toc: true
+---
+
+Consider adding helpful resources (e.g. online text books, blogs, people in the field to follow, videos, etc.) here. See [EDS 240's resources page](https://samanthacsik.github.io/EDS-240-data-viz/resources.html) as an example.

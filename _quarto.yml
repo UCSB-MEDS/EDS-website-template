@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  announcement:
+    icon: info-circle
+    dismissable: false
+    type: primary
+    position: above-navbar
+    content: "This website is currently under development!"
+  title: "EDS 123"
+  favicon: images/bren-hex.png
+  navbar:
+    right:
+      - href: index.qmd
+        text: home
+      - text: syllabus
+        href: https://docs.google.com/document/d/1hoo2DEroXlqBhhc6LmnsYFe8_7IbHny5yk7yXLfQp-4/edit?usp=sharing
+        target: _blank
+      - text: course materials
+        menu:
+          - text: week 1 (DD/MM)
+            href: course-materials/week1.qmd
+          - text: week 2 (DD/MM)
+            href: course-materials/week2.qmd
+      - text: assignments
+        href: assignments.qmd
+      - text: resources
+        menu: 
+          - text: recommended readings & resources
+            href: resources.qmd
+          - text: MEDS installation guide
+            href: https://ucsb-meds.github.io/MEDS-installation-guide/
+            target: _blank
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/UCSB-MEDS/EDS-website-template
+          - text: Report a Bug
+            url: https://github.com/UCSB-MEDS/EDS-website-template/issues
+  page-footer:
+    background: dark
+    right: This website is built with [{{< fa brands github title="the github octocat logo" >}}](https://github.com/UCSB-MEDS/EDS-website-template) and [Quarto](https://quarto.org/)
+    left: This work is licensed under \<your preferred license\> 
+
+format:
+  html:
+    theme: meds-website-styles.scss
+    page-layout: full
+    toc: true
+    title-block-banner: true
+
+
+

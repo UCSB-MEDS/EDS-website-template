@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Recommended reading & materials",
+    "section": "",
+    "text": "Consider adding helpful resources (e.g. online text books, blogs, people in the field to follow, videos, etc.) here. See EDS 240’s resources page as an example."
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Course Title",
+    "section": "Course Description",
+    "text": "Course Description\nAdd your course description here"
+  },
+  {
+    "objectID": "index.html#teaching-team",
+    "href": "index.html#teaching-team",
+    "title": "Course Title",
+    "section": "Teaching Team",
+    "text": "Teaching Team\n\n\n\n\nInstructor\n\n\n\n\n\n\n\n\n\n\n\nInstructor’s Name\nEmail: email@ucsb.edu\nLearn more: link to preferred online profile here\n\n\n\n\nTA\n\n\n\n\n\n\n\n\n\n\n\nTA’s Name\nEmail: email@bren.ucsb.edu\nLearn more: link to preferred online profile here"
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Course Title",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nAdd any acknowledgements here"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Important: 11:59 PM submission deadline\n\n\n\nAll assignments are due at 11:59 PM on the dates listed in the table, below.\n\n\n\n\n\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nHomework Assignment #1\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #2\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #3\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #4\nDD/MM/YYY\nDD/MM/YYY"
+  },
+  {
+    "objectID": "course-materials/week1.html",
+    "href": "course-materials/week1.html",
+    "title": "This week’s topic(s)",
+    "section": "",
+    "text": "Lecture slides\nLab\nAnswer key\n\n\n\n\nLecture 1: topic X\nLab 1\nLab 1 Key"
+  },
+  {
+    "objectID": "course-materials/week1.html#lecture-materials",
+    "href": "course-materials/week1.html#lecture-materials",
+    "title": "This week’s topic(s)",
+    "section": "",
+    "text": "Lecture slides\nLab\nAnswer key\n\n\n\n\nLecture 1: topic X\nLab 1\nLab 1 Key"
+  },
+  {
+    "objectID": "course-materials/week1.html#discussion-materials",
+    "href": "course-materials/week1.html#discussion-materials",
+    "title": "This week’s topic(s)",
+    "section": " Discussion Materials",
+    "text": "Discussion Materials\nDiscussion materials here"
+  },
+  {
+    "objectID": "course-materials/week1.html#assignment-reminders",
+    "href": "course-materials/week1.html#assignment-reminders",
+    "title": "This week’s topic(s)",
+    "section": " Assignment Reminders",
+    "text": "Assignment Reminders\n\n\n\n\n\n\n\n\n\nAssignment Type\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nEOC\nEnd-of-class survey (week 1)\nMon 01/06/2024\nMon 01/06/2024, 11:55pm PT\n\n\nSR\nPre-course reflection (SR #1)\nMon 01/06/2024\nSat 01/11/2024, 11:59pm PT\n\n\nHW\nHomework Assignment #1\nMon 01/06/2024\nSat 01/18/2024, 11:59pm PT"
+  }
+]
