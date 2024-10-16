@@ -16,6 +16,14 @@ Many MEDS instructors opt to organize their course materials on custom course we
 | EDS 296-1W | Intro to Shiny                                                 | Sam Csik                               | https://ucsb-meds.github.io/EDS-296-Intro-to-Shiny/    |
 | EDS 213    | Databases & Data Management                                    | Julien Brun, Greg Janée & Renata Curty | https://ucsb-library-research-data-services.github.io/bren-meds213-spring-2024/ |
 
+## Using this template
+
+To create a website using this template:
+
+1. Click on the green **Use this template** button (top right)
+2. Fill out the necessary fields on the **Create a new repository** page. I recommend naming your new repository following this convention: `EDS-XXX-short-title`. You should also ensure that your repo is **public**. You may choose the owner as your own personal account *or* a GitHub organization that you own.
+3. Click **Create repository**
+![](https://github.com/user-attachments/assets/0ab4c633-2cbe-495a-b497-9dacd65efcb7)
 
 ## Getting started with Quarto
 
