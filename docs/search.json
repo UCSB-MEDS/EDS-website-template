@@ -56,34 +56,6 @@
     "text": "Assignment Reminders\n\n\n\n\n\n\n\n\n\nAssignment Type\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nHW\nHomework Assignment #1\nDD/MM/YYYY\nDD/MM/YYYY, 11:59pm PT"
   },
   {
-    "objectID": "course-materials/labs/lab1.1.html",
-    "href": "course-materials/labs/lab1.1.html",
-    "title": "Lab 1.1 TEMPLATE",
-    "section": "",
-    "text": "# load packages ----"
-  },
-  {
-    "objectID": "course-materials/labs/lab1.1.html#setup",
-    "href": "course-materials/labs/lab1.1.html#setup",
-    "title": "Lab 1.1 TEMPLATE",
-    "section": "",
-    "text": "# load packages ----"
-  },
-  {
-    "objectID": "course-materials/labs/lab1.1.html#tidy-data-review",
-    "href": "course-materials/labs/lab1.1.html#tidy-data-review",
-    "title": "Lab 1.1 TEMPLATE",
-    "section": "Tidy Data Review",
-    "text": "Tidy Data Review\nExample untidy / wide data:\n\n# create some untidy temperature data ----\n\n# print it out ----\n\nUsing pivot_longer() to “lengthen” / tidy our data:\n\n# convert data from wide &gt; long ----\n\n# print it out ----"
-  },
-  {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
-    "section": "",
-    "text": "Important: 11:59 PM submission deadline\n\n\n\nAll assignments are due at 11:59 PM on the dates listed in the table, below.\n\n\n\n\n\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nHomework Assignment #1\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #2\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #3\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #4\nDD/MM/YYY\nDD/MM/YYY"
-  },
-  {
     "objectID": "index.html#course-description",
     "href": "index.html#course-description",
     "title": "Course Title",
@@ -103,6 +75,34 @@
     "title": "Course Title",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nAdd any acknowledgements here (e.g. any resources or people you drew lots of inspiration or help from when building your materials?)"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Important: 11:59 PM submission deadline\n\n\n\nAll assignments are due at 11:59 PM on the dates listed in the table, below.\n\n\n\n\n\nAssignment Title\nDate Assigned\nDate Due\n\n\n\n\nHomework Assignment #1\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #2\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #3\nDD/MM/YYY\nDD/MM/YYY\n\n\nHomework Assignment #4\nDD/MM/YYY\nDD/MM/YYY"
+  },
+  {
+    "objectID": "course-materials/labs/lab1.1.html",
+    "href": "course-materials/labs/lab1.1.html",
+    "title": "Lab 1.1 TEMPLATE",
+    "section": "",
+    "text": "# load packages ----"
+  },
+  {
+    "objectID": "course-materials/labs/lab1.1.html#setup",
+    "href": "course-materials/labs/lab1.1.html#setup",
+    "title": "Lab 1.1 TEMPLATE",
+    "section": "",
+    "text": "# load packages ----"
+  },
+  {
+    "objectID": "course-materials/labs/lab1.1.html#tidy-data-review",
+    "href": "course-materials/labs/lab1.1.html#tidy-data-review",
+    "title": "Lab 1.1 TEMPLATE",
+    "section": "Tidy Data Review",
+    "text": "Tidy Data Review\nExample untidy / wide data:\n\n# create some untidy temperature data ----\n\n# print it out ----\n\nUsing pivot_longer() to “lengthen” / tidy our data:\n\n# convert data from wide &gt; long ----\n\n# print it out ----"
   },
   {
     "objectID": "course-materials/discussion-materials/week1-discussion-slides.html#title-slide",
