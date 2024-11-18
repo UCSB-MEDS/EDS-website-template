@@ -15,6 +15,7 @@ Many MEDS instructors opt to organize their course materials on custom course we
 | EDS 232    | Machine Learning in Environmental Data Science                 | Matteo Robbins                         | https://maro406.github.io/eds-232-machine-learning/    |
 | EDS 240    | Data Visualization & Communication                             | Sam Csik                               | https://eds-240-data-viz.github.io/                    |
 | EDS 296-1W | Intro to Shiny                                                 | Sam Csik                               | https://ucsb-meds.github.io/EDS-296-Intro-to-Shiny/    |
+| EDS 230    | Environmental Modeling                                         | Naomi Tague                            | https://naomitague.github.io/ESM232_course/            |
 | EDS 213    | Databases & Data Management                                    | Julien Brun, Greg Janée & Renata Curty | https://ucsb-library-research-data-services.github.io/bren-meds213-spring-2024/ |
 
 ## Using this template
