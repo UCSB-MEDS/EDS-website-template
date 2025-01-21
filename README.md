@@ -4,19 +4,19 @@ Many MEDS instructors opt to organize their course materials on custom course we
 
 |   Course # | Course title                                                   | Instructor(s)                          | Website URL                                            |
 |-----------:|----------------------------------------------------------------|----------------------------------------|--------------------------------------------------------|
-| EDS 212    | Essential Math in Environmental Data Science                   | Ruth Oliver & Sam Csik                 | https://eds-212-essential-math.github.io/              |
+| EDS 212    | Essential Math in Environmental Data Science                   | Ruth Oliver & Sam Shanny-Csik          | https://eds-212-essential-math.github.io/              |
 | EDS 221    | Scientific Programming Essentials                              | Ruth Oliver                            | https://eds-221-programming-essentials.github.io/      |
 | EDS 214    | Analytic Workflows & Scientific Reproducibility                | Julien Brun                            | https://brunj7.github.io/EDS-214-analytical-workflows/ |
 | EDS 217    | Python for Environmental Data Science                          | Kelly Caylor                           | https://eds-217-essential-python.github.io/            |
 | EDS 223    | Geopsatial Analysis & Remote Sensing                           | Ruth Oliver                            | https://eds-223-geospatial.github.io/                  |
 | EDS 220    | Working with Environmental Data                                | Carmen Galaz García                    | https://meds-eds-220.github.io/MEDS-eds-220-course/    |
 | EDS 222    | Statistics for Environmental Data Science                      | Max Czapanskiy                         | https://eds-222-statistics.github.io/                  |
-| EDS 296-1F | Data science tools for building professional online portfolios | Sam Csik                               | https://ucsb-meds.github.io/EDS-296-DS-portfolios/     |
+| EDS 296-1F | Data science tools for building professional online portfolios | Sam Shanny-Csik                        | https://ucsb-meds.github.io/EDS-296-DS-portfolios/     |
 | EDS 411    | MEDS Capstone Project                                          | Carmen Galaz García                    | https://carmengg.github.io/eds-411-website/            |
 | EDS 232    | Machine Learning in Environmental Data Science                 | Mateo Robbins                          | https://maro406.github.io/eds-232-machine-learning/    |
 | EDS 241    | Environmental Policy Evaluation                                | Adam Garber                            | https://garberadamc.github.io/eds241-policy-eval/      |
-| EDS 240    | Data Visualization & Communication                             | Sam Csik                               | https://eds-240-data-viz.github.io/                    |
-| EDS 296-1W | Intro to Shiny                                                 | Sam Csik                               | https://ucsb-meds.github.io/EDS-296-Intro-to-Shiny/    |
+| EDS 240    | Data Visualization & Communication                             | Sam Shanny-Csik                        | https://eds-240-data-viz.github.io/                    |
+| EDS 296-1W | Intro to Shiny                                                 | Sam Shanny-Csik                        | https://ucsb-meds.github.io/EDS-296-Intro-to-Shiny/    |
 | EDS 230    | Environmental Modeling                                         | Naomi Tague                            | https://naomitague.github.io/ESM232_course/            |
 | EDS 213    | Databases & Data Management                                    | Julien Brun, Greg Janée & Renata Curty | https://ucsb-library-research-data-services.github.io/bren-meds213-spring-2024/ |
 
