@@ -19,6 +19,7 @@ Many MEDS instructors opt to organize their course materials on custom course we
 | EDS 296-1W | Intro to Shiny                                                 | Sam Shanny-Csik                        | https://ucsb-meds.github.io/EDS-296-Intro-to-Shiny/    |
 | EDS 230    | Environmental Modeling                                         | Naomi Tague                            | https://naomitague.github.io/ESM232_course/            |
 | EDS 213    | Databases & Data Management                                    | Julien Brun, Greg Janée & Renata Curty | https://ucsb-library-research-data-services.github.io/bren-meds213-spring-2024/ |
+| NA         | Career & Professional Development Workshop Series              | Sam Shanny-Csik, Miya Scheble, Amanda Asquith-Caya, Dave Parker | [https://ucsb-meds.github.io/career-professional-dev/](https://ucsb-meds.github.io/career-professional-dev/) |
 
 ## Using this template
 
