@@ -10,8 +10,7 @@ Many MEDS instructors opt to organize their course materials on custom course we
 | EDS 217    | Python for Environmental Data Science                          | Kelly Caylor                           | https://eds-217-essential-python.github.io/            |
 | EDS 223    | Geopsatial Analysis & Remote Sensing                           | Ruth Oliver                            | https://eds-223-geospatial.github.io/                  |
 | EDS 220    | Working with Environmental Data                                | Carmen Galaz García                    | https://meds-eds-220.github.io/MEDS-eds-220-course/    |
-| EDS 222    | Statistics for Environmental Data Science                      | Max Czapanskiy                         | https://eds-222-statistics.github.io/                  |
-| EDS 296-1F | Data science tools for building professional online portfolios | Sam Shanny-Csik                        | https://ucsb-meds.github.io/EDS-296-DS-portfolios/     |
+| EDS 222    | Statistics for Environmental Data Science                      | Max Czapanskiy                         | https://eds-222-stats-f25.github.io/                  |
 | EDS 411    | MEDS Capstone Project                                          | Carmen Galaz García                    | https://carmengg.github.io/eds-411-website/            |
 | EDS 232    | Machine Learning in Environmental Data Science                 | Mateo Robbins                          | https://maro406.github.io/eds-232-machine-learning/    |
 | EDS 241    | Environmental Policy Evaluation                                | Adam Garber                            | https://garberadamc.github.io/eds241-policy-eval/      |
