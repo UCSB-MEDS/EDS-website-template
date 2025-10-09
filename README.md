@@ -4,11 +4,11 @@ Many MEDS instructors opt to organize their course materials on custom course we
 
 |   Course # | Course title                                                   | Instructor(s)                          | Website URL                                            |
 |-----------:|----------------------------------------------------------------|----------------------------------------|--------------------------------------------------------|
-| EDS 212    | Essential Math in Environmental Data Science                   | Ruth Oliver & Sam Shanny-Csik          | https://eds-212-essential-math.github.io/              |
+| EDS 212    | Essential Math in Environmental Data Science                   | Ruth Oliver                            | https://eds-212-essential-math.github.io/              |
 | EDS 221    | Scientific Programming Essentials                              | Ruth Oliver                            | https://eds-221-programming-essentials.github.io/      |
 | EDS 214    | Analytic Workflows & Scientific Reproducibility                | Julien Brun                            | https://brunj7.github.io/EDS-214-analytical-workflows/ |
 | EDS 217    | Python for Environmental Data Science                          | Kelly Caylor                           | https://eds-217-essential-python.github.io/            |
-| EDS 223    | Geopsatial Analysis & Remote Sensing                           | Ruth Oliver                            | https://eds-223-geospatial.github.io/                  |
+| EDS 223    | Geopsatial Analysis & Remote Sensing                           | Ruth Oliver, Annie Adams               | https://eds-223-geospatial.github.io/                  |
 | EDS 220    | Working with Environmental Data                                | Carmen Galaz García                    | https://meds-eds-220.github.io/MEDS-eds-220-course/    |
 | EDS 222    | Statistics for Environmental Data Science                      | Max Czapanskiy                         | https://eds-222-stats-f25.github.io/                  |
 | EDS 411    | MEDS Capstone Project                                          | Carmen Galaz García                    | https://carmengg.github.io/eds-411-website/            |
