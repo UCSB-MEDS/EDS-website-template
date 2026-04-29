@@ -5,4 +5,17 @@ document.addEventListener('DOMContentLoaded', () => {
     searchBtn.setAttribute('aria-label', 'Open search');
   }
 });
+
+const autocomplete = document.querySelector('div.aa-Autocomplete');
+  if (autocomplete && !autocomplete.getAttribute('role')) {
+    autocomplete.setAttribute('role', 'combobox');
+    autocomplete.setAttribute('aria-label', 'Search');
+  }
+});
+
+const githubLink = document.querySelector('a#nav-menu-bi-github.nav-link.dropdown-toggle');
+  if (githubLink && !githubLink.getAttribute('aria-label')) {
+    githubLink.setAttribute('aria-label', 'GitHub');
+  }
+});
 </script>
