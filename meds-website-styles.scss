@@ -12,11 +12,11 @@ $font-family-monospace: 'Roboto Mono', monospace; // code
 $baby-blue: #d2e3f3;
 $teal: #047C90;
 $dark-blue: #003660;
-$green: #78A540;
+$moss-green: #6D7D33; // old green #78A540;
 $white: #FFFFFF;
 $off-white: #F7F7F7;
-$gray: #ADADAD;
-$dark-gray: #373A3E;
+$gray: #595959; 
+$dark-gray: #2E3033;
 
 // quarto sass variables (see https://quarto.org/docs/output-formats/html-themes.html#sass-variables)
 $navbar-bg: $off-white; // navbar background color
@@ -25,7 +25,7 @@ $navbar-hl: $teal; // navbar text hover oclor
 $body-bg: $white; // page body background color
 $body-color: $dark-gray; // page body text color
 $footer-bg: $dark-blue; // page footer background color
-$link-color: $green; // hyperlink color
+$link-color: $moss-green; // hyperlink color
 
 /*-- scss:rules --*/
 
@@ -102,7 +102,7 @@ h2 {
 
 // button hover styling
 .btn:hover {
-  color: $green;
+  color: $moss-green;
   background-color: $white;
-  border-color: $green;
+  border-color: $moss-green;
 }

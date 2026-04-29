@@ -39,14 +39,14 @@
     "href": "course-materials/week1.html#lecture-materials",
     "title": "This week’s topic(s)",
     "section": " Lecture Materials",
-    "text": "Lecture Materials\nConsider linking to lecture materials in a table. Check out this Markdown Tables Generator for quickly formatting tables.\n\n\n\n\n\n\n\n\nLecture slides\nLab\nAnswer key\n\n\n\n\nLecture 1.1: topic X\nLab 1.1\nLab 1.1 Key\n\n\nLecture 1.2: topic X\nNA\nNA"
+    "text": "Lecture Materials\nConsider linking to lecture materials in a table. Check out this Markdown Tables Generator for quickly formatting tables.\n\n\n\n\n\n\n\n\nLecture slides\nCode-along template\nCode-along key\n\n\n\n\nLecture 1.1: topic X\nLab 1.1\nLab 1.1 Key\n\n\nLecture 1.2: topic X\nNA\nNA"
   },
   {
     "objectID": "course-materials/week1.html#discussion-materials",
     "href": "course-materials/week1.html#discussion-materials",
     "title": "This week’s topic(s)",
     "section": " Discussion Materials",
-    "text": "Discussion Materials\nYou can also create buttons that link to content.\n\nThis week’s discussion topic here\n Discussion 1 slides"
+    "text": "Discussion Materials\n\n\n\nDiscussion slides\n\n\n\n\nDisucssion 1 slides"
   },
   {
     "objectID": "course-materials/week1.html#assignment-reminders",

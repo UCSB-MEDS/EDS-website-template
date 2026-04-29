@@ -13,7 +13,7 @@ Add / arrange content in whatever way is best your course -- be sure to check ou
 
 Consider linking to lecture materials in a table. Check out this [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) for quickly formatting tables.
 
-| Lecture slides | Lab |  Answer key |
+| Lecture slides | Code-along template |  Code-along key |
 |----------------|------|------------|
 | [Lecture 1.1: topic X](lecture-slides/lecture1.1-slides.qmd){target="_blank"} | [Lab 1.1](labs/lab1.1.qmd) | [Lab 1.1 Key](keys/key1.1.qmd) |
 | [Lecture 1.2: topic X](https://docs.google.com/presentation/d/1RNYxX9qQhGsSob9sei0RoeRNIuxFwP6CuekkG1iCDkY/edit?usp=sharing){target="_blank"} | *NA* | *NA* |
@@ -21,13 +21,10 @@ Consider linking to lecture materials in a table. Check out this [Markdown Table
 
 ## {{< fa comments title="two speech bubbles" >}} Discussion Materials {#discussion-materials}
 
-You can also create buttons that link to content.
-
-::: {.center-text}
-[**This week's discussion topic here**]{.teal-text .body-text-m}
-
-[{{< fa person-chalkboard title="A person motioning at a chalkboard" >}} Discussion 1 slides](discussion-materials/week1-discussion-slides.qmd){.btn role="button" target="_blank"} 
-:::
+| Discussion slides |
+|----------------|
+| [Disucssion 1 slides](discussion-materials/week1-discussion-slides.qmd){target="_blank"} | 
+: {.hover .bordered} 
 
 ## {{< fa pencil title="pencil" >}} Assignment Reminders {#assignment-reminders}
 

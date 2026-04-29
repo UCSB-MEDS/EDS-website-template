@@ -46,6 +46,7 @@ Add your course description here (can be copied over from your syllabus or the a
 #| echo: false
 #| fig-align: "center"
 #| out-width: "45%" 
+#| fig-alt: "A photo of course instructor, [name here]"
 knitr::include_graphics("images/tbd.png")
 ```
 ::: {.center-text}
@@ -65,6 +66,7 @@ knitr::include_graphics("images/tbd.png")
 #| echo: false
 #| fig-align: "center"
 #| out-width: "45%" 
+#| fig-alt: "A photo of course TA, [name here]"
 knitr::include_graphics("images/tbd.png")
 ```
 ::: {.center-text}

@@ -20,9 +20,9 @@ website:
         target: _blank
       - text: course materials
         menu:
-          - text: week 1 (DD/MM)
+          - text: week 1 (DD/MM) - **short topic description**
             href: course-materials/week1.qmd
-          - text: week 2 (DD/MM)
+          - text: week 2 (DD/MM) - **short topic description**
             href: course-materials/week2.qmd
       - text: assignments
         href: assignments.qmd
@@ -50,6 +50,8 @@ format:
     page-layout: full
     toc: true
     title-block-banner: true
+    axe:
+      output: document
 
 
 
