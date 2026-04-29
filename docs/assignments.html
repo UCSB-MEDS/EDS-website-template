@@ -238,6 +238,14 @@ Important: 11:59 PM submission deadline
 
 
 </main> <!-- /main -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const searchBtn = document.querySelector('button.aa-DetachedSearchButton');
+  if (searchBtn && !searchBtn.getAttribute('aria-label')) {
+    searchBtn.setAttribute('aria-label', 'Open search');
+  }
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
