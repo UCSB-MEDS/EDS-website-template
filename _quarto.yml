@@ -51,8 +51,5 @@ format:
     page-layout: full
     toc: true
     title-block-banner: true
-    #include-after-body: _accessibility-fix.js 
-    
-# Google Lighthouse flagged the Quarto search button (`button.aa-DetachedSearchButton;` magnifying glass @ top right) as lacking an accessible name during ADA compliance check; Claude recommended injecting this aria label vis JavaScript (see above & `_accessibility-fix.js`)
 
 
