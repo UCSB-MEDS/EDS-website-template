@@ -12,16 +12,16 @@ $font-family-monospace: 'Roboto Mono', monospace; // code
 $baby-blue: #d2e3f3;
 $teal: #047C90;
 $dark-blue: #003660;
-$green: #78A540;
+$moss-green: #6D7D33; // old green #78A540;
 $white: #FFFFFF;
 $off-white: #F7F7F7;
-$gray: #ADADAD;
+$gray: #595959;
 $dark-gray: #373A3E;
 
 // scss variables (see https://quarto.org/docs/presentations/revealjs/themes.html#sass-variables)
 $presentation-title-slide-text-align: "left"; // left-align slide titles
 $body-bg: $white; // slide background color
-$link-color: $green; // hyperlink color
+$link-color: $moss-green; // hyperlink color
 //$code-color: $magenta;
 $code-bg: $off-white; // inline code background color
 $code-block-font-size: 0.8em; // block code font size
